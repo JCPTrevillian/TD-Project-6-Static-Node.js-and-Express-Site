@@ -4,10 +4,9 @@ block content
 
   article.grid-container.portfolio-intro
     div
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
+    
     h1 TechDegree Project Portfolio 
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
     p This is a collection of the projects I created to earn my TechDegree. The skills/languages utilized demonstrate my understanding of the tools and languages taught. I am proud of this portfolio! 
 
 
@@ -16,7 +15,7 @@ block content
 
       //- Use the Pug `each` iterator to loop over the projects in your data file  
         //Pug code below and interpolated template literals as needed. 
-         
+
       each proj in projects 
         .cell
            a(href=`/project/${proj.id}`)
