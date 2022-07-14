@@ -1,34 +1,24 @@
 extends layout.pug
 
-block content
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
 
-  nav.nav
-    a(href='/')
-      span &larr;
-      |  Back
+        h1 #{project.project_name}
 
-  article.portfolio-projects
-    .inner-wrapper.flex-row-wrap.two-col
-      .project-info-box.box
+        p.lead.text-light
+          | #{project.description}
 
-        //- Use the info in your data file and the comments below to complete this template
-
-        //- Use interpolation to dynamically add the project title
-        h1 {project.project_name}
-
-        //- Use interpolation to dynamically add the project description
-        p {project.description}
-
-      .project-tech-links-box.box
+      .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
+
         ul
+          each tech in project.technologies
+            li #{tech}
 
-          //- Use an `each` iterator and interpolation to dynamically replace the li tags below with the technologies listed for this project
-          li HTML
-          li CSS
-          li JavaScript
-
-        //- Add the href values to the links below
         a.btn-link(href='') Live Demo
         a.btn-link(href='https://www.github.com/JCPTrevillian') GitHub Repo
 
