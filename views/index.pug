@@ -8,13 +8,13 @@ block content
     h1 My TechDegree Project Portfolio 
 
     p Showcasing some of the projects I created to earn my TechDegree. The languages/tools utilized demonstrate my understanding of the tools and languages taught. I am proud of this portfolio! 
+  
   article.grid-container.portfolio-index
-
     .projects-box.box.grid
-
       each proj in projects 
         .cell
            a(href=`/project/${proj.id}`)
-            img.thumbnail(src=`${proj.image_urls[0]}`)
+            
+  img.thumbnail(src=`${proj.image_urls[0]}`, alt=`Thumbnail of ${project.project_name} project`, style="width:300px")
             h5 #{proj.project_name}
 
