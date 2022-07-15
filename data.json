@@ -3,8 +3,12 @@
 		{
 			"id": 1,
 			"project_name": "Random Quote Generator",
-			"description": "Objective: Create an app that displays 5 random quotes",
-			"technologies": [ "HTML", "CSS", "JavaScript"],
+			"description": "Create an app that displays 1 of 5 random quotes",
+			"technologies": [ 
+				"HTML", 
+				"CSS", 
+				"JavaScript"
+			],
 			"live_link": "jcptrevillian.github.io/TechDegree-Project-1/",
 			"github_link": "https://github.com/JCPTrevillian/TechDegree-Project-1",
 			"image_urls": [
@@ -15,12 +19,11 @@
 		{
 			"id": 2,
 			"project_name": "Data Pagination and Fitering",
-			"description": "Objective: write JS to display several pages of data that user can easily view",
+			"description": "Write JS to display several pages of data that user can easily view",
 			"technologies": [
 				"HTML",
 				"CSS",
-				"JavaScript"
-				
+				"JavaScript"	
 			],
 			"live_link": "jcptrevillian.github.io/TechDegree-Project2/",
 			"github_link": "https://github.com/JCPTrevillian/TechDegree-Project2",
@@ -32,7 +35,7 @@
 		{
 			"id": 3,
 			"project_name": "Interactive Form",
-			"description": "Objective: create a form that is engaging, interactive, and easy to use",
+			"description": "Create a form that is engaging, interactive, and easy to use",
 			"technologies": [
 				"HTML",
 				"CSS",
@@ -48,7 +51,7 @@
 		{
 			"id": 4,
 			"project_name": "OOP Game Show App",
-			"description": "Objective: create a browser-based word guessing game",
+			"description": "Create a browser-based object oriented word guessing game",
 			"technologies": [
 				"HTML",
 				"CSS",
@@ -64,7 +67,7 @@
 		{
 			"id": 5,
 			"project_name": "Public API Request",
-			"description": "Objective: build an app for fictional company that grabs information for 12 random employees complete with modal window for detailed information",
+			"description": "Build an app for fictional company that grabs information for 12 random employees complete with modal window for detailed information",
             "technologies": [
 				"HTML",
 				"CSS",
