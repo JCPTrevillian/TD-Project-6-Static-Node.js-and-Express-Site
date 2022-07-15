@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
 	res.render('index', { projects });
 });
 
-// aabout route 
+// about route 
 router.get('/about', (req, res) => {
 	res.render('about');
 });
