@@ -1,5 +1,5 @@
 {
-	"projects":
+	"projects": [
 		{
 			"id": 1,
 			"project_name": "Random Quote Generator",
@@ -77,8 +77,10 @@
 				"/static/images/Project5-1.thumbnail",
 				"/static/images/Project5-2.png"
 			]
-		} 
-	}	    
+		}
+	]
+
+}	    
 	
 
 
