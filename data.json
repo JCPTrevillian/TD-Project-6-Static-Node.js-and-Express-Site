@@ -1,4 +1,4 @@
-
+{
 	"projects":
 		{
 			"id": 1,
@@ -78,7 +78,7 @@
 				"/static/images/Project5-2.png"
 			]
 		} 
-    
+	}	    
 	
 
 
