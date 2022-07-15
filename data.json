@@ -1,0 +1,80 @@
+{
+	"projects": [
+		{
+			"id": 1,
+			"project_name": "Random Quote Generator",
+			"description": "Objective: Create an app that displays 5 random quotes",
+			"technologies": [ "HTML", "CSS", "JavaScript"],
+			"live_link": "jcptrevillian.github.io/TechDegree-Project-1/",
+			"github_link": "https://github.com/JCPTrevillian/TechDegree-Project-1",
+			"image_urls": [
+				"/static/images/Project1-1.thumbnail",
+				"/static/images/Project1-2.png"
+            ]
+		},
+		{
+			"id": 2,
+			"project_name": "Data Pagination and Fitering",
+			"description": "Objective: write JS to display several pages of data that user can easily view",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+				
+			],
+			"live_link": "jcptrevillian.github.io/TechDegree-Project2/",
+			"github_link": "https://github.com/JCPTrevillian/TechDegree-Project2",
+			"image_urls": [
+				"/static/images/Project2-1.thumbnail",
+				"/static/images/Project2-2.png"
+			]
+		},
+		{
+			"id": 3,
+			"project_name": "Interactive Form",
+			"description": "Objective: create a form that is engaging, interactive, and easy to use",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"live_link": "jcptrevillian.github.io/TechDegree3/",
+			"github_link": "https://github.com/JCPTrevillian/TechDegree3",
+			"image_urls": [
+				"/static/images/Project3-1.thumbnail",
+				"/static/images/Project3-2.png"
+			]
+		},
+		{
+			"id": 4,
+			"project_name": "OOP Game Show App",
+			"description": "Objective: create a browser-based word guessing game",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"live_link": "jcptrevillian.github.io/TechDegree-4/",
+			"github_link": "https://github.com/JCPTrevillian/TechDegree-4",
+			"image_urls": [
+				"/static/images/Project4-1.thumbnail",
+				"/static/images/Project4-2.png"
+			]
+		},
+		{
+			"id": 5,
+			"project_name": "Public API Request",
+			"description": "Objective: build an app for fictional company that grabs information for 12 random employees complete with modal window for detailed information",
+            "technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"API Request"
+			],
+			"live_link": "jcptrevillian.github.io/TechDegree-5/",
+			"github_link": "https://github.com/JCPTrevillian/TechDegree-5",
+			"image_urls": [
+				"/static/images/Project5-1.thumbnail",
+				"/static/images/Project5-2.png"
+			]
+		}
